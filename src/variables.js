@@ -31,7 +31,7 @@ false otherwise
 */
 function isString(b) {
       //your code here
-    if (typeof b === "string")
+    if (typeof b === 'string')
         return true;
   return undefined;
   //end your code
