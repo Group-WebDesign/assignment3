@@ -1,6 +1,7 @@
 /*
 Input:
 a: a whole, positive number
+
 Output:
 plus5: a number that is the sum of 5 and `a`
 asString: a string that is just `a` converted to a string
@@ -23,6 +24,7 @@ function variableModification(a) {
 /*
 Input:
 b: could be anything
+
 Output:
 return true if b is a primitive string value (also known as a string literal),
 false otherwise
@@ -31,13 +33,14 @@ function isString(b) {
       //your code here
     if (typeof b === 'string')
         return true;
-  return undefined;
+  return false;
   //end your code
 }
 
 /*
 Input:
 c: could be anything
+
 Output:
 return true if c is null, false otherwise
 */
@@ -45,6 +48,6 @@ function isNull(c) {
   //your code here
     if (c === null)
         return true;
-  return undefined;
+  return false;
   //end your code
 }
