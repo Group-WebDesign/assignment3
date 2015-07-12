@@ -33,7 +33,7 @@ var barType = typeof bar;
 
 //your code here
 bar = function(floatArray){
-	for(i = 0; i < floatArray.length; i++){
+	for(var i = 0; i < floatArray.length; i++){
 		if((typeof floatArray[i]) != "number"){
 			return false;		
 		}
@@ -78,7 +78,7 @@ function GitLog(hash, date, message) {
 //your code here
 function parseGit(logArray){
 	var gitLogArray = [];
-	for(i = 0; i < logArray.length; i++){
+	for(var i = 0; i < logArray.length; i++){
 		
 		var splitArray = logArray[i].split(" ");
 		var hash = splitArray[0];
